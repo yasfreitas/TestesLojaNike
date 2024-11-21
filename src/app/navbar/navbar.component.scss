@@ -1,0 +1,33 @@
+
+nav{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+h1{
+    color: white;
+    padding-right: 10px;
+}
+
+h1.red{
+    color: #FF6452;
+}
+
+h5{
+    color: gray;
+    padding-top: 15px;
+    font-weight: 400;
+}

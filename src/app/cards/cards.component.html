@@ -1,0 +1,15 @@
+<div class="product-list">
+    <ul>
+        <li *ngFor="let product of product">
+            <div class="bandeira">
+                <img src="{{product.image}}" alt="">
+                <div class="coracao">❤️</div>
+            </div>
+            <h3 class="">{{ product.nome }}</h3>
+            <p class="">{{ product.descricao }}</p>
+            <div class="carP"> <p class="preco">{{ product.preco | currency: 'USD' }}</p>
+                <button (click)="changeColor()" [ngStyle]="{'background-color': buttonColor}">Add to cart</button>
+            </div>
+        </li>
+    </ul>
+</div>
